@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevBlog - Home</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="wrapper">
+
+  <header class="header">
+    <nav class="navbar navbar-expand-lg bg-grey sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><b>Dan Platten<b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+                        <li class="nav-item">
+              <a class="nav-link" href="About me">About</a>
+            </li>            
+            
+            </li>
+          </ul>
+          <a href="www.instagram.com/plattenphotography"><img width="40px" src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-icon-png-image_6315974.png" alt="instagram"></a>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">subscribe</button>
+            
+            <!-- add modal markup here -->
+
+        </div>
+      </div>
+    </nav>
+    <!-- Modal -->
+       <section id="home"><br><br>
+      <div class="into">
+      <h2>Introduction</h2>
+       <p> This is my first landing page. My name is Dan Platten. I intend to use this example later on in the course to help further my knowledge of coding.I am interested in learning to code, so that I can create my own photography portfolio online, which can be managed by myself. I am looking forward to learning more and more, and having the potential to really use this new skill to broadcast my work to a wider audience.<br>
+       </p>
+      </div>
+
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <!-- Put form here -->
+                    <div class="form-floating mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="floatingInput"
+                        placeholder="Full name"
+                      >
+                      <label for="floatingInput">Full name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="floatingInput"
+                        placeholder="name@example.com"
+                      >
+                      <label for="floatingInput">Email address</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Register</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  </header>
+
+  <main class="main container">
+    <section class="my-progress mt-4 mb-3">
+      <h2 align="left">My Progress so far...</h2>
+      <div class="card-group">
+      <div class="card row col4" style="width: 18rem;">
+  <img height="228.42pxpx" src="https://previews.123rf.com/images/goldenadele/goldenadele1901/goldenadele190100010/126287101-a-little-kid-sitting-at-the-table-with-a-laptop-coding-cartoon-vector-illustration-about-children-co.jpg" class="card-img-top" alt="img1">
+  <div class="card-body">
+    <h5 class="card-title">My First Page</h5>
+    <p class="card-text">Starting off with just basic HTML. I developed my first landing page. 
+      Click link to go to my page on Codepen,io to see the beginning of my journey </p><br>
+
+    <a href="https://codepen.io/VintageDan/pen/QWBaoOZ" class="btn btn-primary" target="_blank">Read More</a>
+  </div>
+</div>
+      <div class="card row col4" style="width: 18rem;">
+  <img height="228.42pxpx" src="https://previews.123rf.com/images/adiruch/adiruch1704/adiruch170400061/76744447-learn-html-web-development-and-web-design-trendy-long-shadow-flat-design-and-html-word-on-screen-com.jpg" class="card-img-top" alt="img2">
+  <div class="card-body">
+    <h5 class="card-title">My Second Page</h5>
+    <p class="card-text">After a lot more practice and development with HTML, I was able to create a new landing page. This page incorperated colours and backgrounds, and I learned how to stack photos in grids. click the link below to see the page. </p>
+    <a href="https://codepen.io/VintageDan/pen/VwBBwaE" class="btn btn-secondary" target="_blank">Read More</a>
+  </div>
+</div>
+
+<div class="card row col4" style="width: 18rem;">
+  <img height="228.42pxpx" src="https://previews.123rf.com/images/rokvel/rokvel1703/rokvel170300647/74736859-menu-icon-isolated-on-background-modern-flat-pictogram-business-marketing-internet-concept.jpg" class="card-img-top" alt="img3">
+  <div class="card-body">
+    <h5 class="card-title">Cousin Sal's Menu</h5>
+    <p class="card-text">In week 3, we got to play more and develop some .css skills. The project was to create a menu based on the premise of a customer wanting specific values. giving the feel of meeting the expection of customer needs. </p>
+    <a href="https://codepen.io/VintageDan/pen/BaPbLyx" class="btn btn-success" target="_blank">Read More</a>
+  </div>
+</div>
+
+<div class="card row col4" style="width: 18rem;">
+  <img height="228.42pxpx" src="https://previews.123rf.com/images/vectorv/vectorv1908/vectorv190801375/128154743-color-css-file-document-download-css-button-icon-isolated-on-color-background-css-file-symbol-vector.jpg" class="card-img-top" alt="img4">
+  <div class="card-body">
+    <h5 class="card-title">The Artist Project</h5>
+    <p class="card-text">In week 3, we got to play more and develop some .css skills. The project was to showcase 6 artists. I really enjoyed this project as all the previous learning was starting to stick.  </p>
+    <a href="https://codepen.io/VintageDan/pen/BaPbLyx" class="btn btn-danger" target="_blank">Read More</a>
+  </div>
+</div>
+
+<div class="card row col4" style="width: 18rem;">
+  <img height="228.42pxpx" src="https://previews.123rf.com/images/tashatuvango/tashatuvango1604/tashatuvango160401470/55460429-green-chalkboard-with-the-text-bootstrapping-hangs-on-the-white-brick-wall-in-the-interior-of-a-mode.jpg" class="card-img-top" alt="img5">
+  <div class="card-body">
+    <h5 class="card-title">DevBlog articles</h5>
+    <p class="card-text">In week 4 we have been introduced to bootstap and how to apply this to .css. The project was to create a blog style post to show articles and how to change the navigation bar.  </p>
+    <a href="https://codepen.io/VintageDan/pen/OJwKeLB" class="btn btn-warning" target="_blank">Read More</a>
+  </div>
+</div>
+</section>
+  </main>
+
+
+  <section id="about">
+    <h2>About me</h2>
+    <p>I currently work at Amazon logistics (AMZL) within the HR function supporting DHU2 site in Melton, 
+      UK. In my spare time I like to be outside and spend lots of time visiting various nature reserves looking for 
+      unique opportunities to capture and expand on my photography skills. Please click my instagram link in the header for more information.   
+    </p>
+  </section>  
+  
+  <footer>
+    <div class="footer__content">
+      &copy; 2023 VintageDan. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
